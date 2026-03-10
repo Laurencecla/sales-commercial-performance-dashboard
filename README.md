@@ -238,43 +238,46 @@ Average Order Value
 These provide a concise overview of commercial performance.
 
 ## Repository Structure
+
+```
 sales-commercial-performance-dashboard
 │
 ├── data
-│ └── raw
+│   └── raw
 │
 ├── docs
-│ ├── architecture.md
-│ ├── business_rules.md
-│ ├── data_dictionary.md
-│ ├── kpi_definitions.md
-│ ├── PROJECT_OVERVIEW.md
-│ └── screenshots
-│ ├── executive_summary.png
-│ ├── product_performance.png
-│ ├── regional_sales.png
-│ └── customer_segmentation.png
+│   ├── architecture.md
+│   ├── business_rules.md
+│   ├── data_dictionary.md
+│   ├── kpi_definitions.md
+│   ├── PROJECT_OVERVIEW.md
+│   └── screenshots
+│       ├── executive_summary.png
+│       ├── product_performance.png
+│       ├── regional_sales.png
+│       └── customer_segmentation.png
 │
 ├── powerbi
-│ └── sales_commercial_dashboard.pbix
+│   └── sales_commercial_dashboard.pbix
 │
 ├── python
-│ ├── ingest_olist.py
-│ └── generate_date_dim.py
+│   ├── ingest_olist.py
+│   └── generate_date_dim.py
 │
 ├── sql
-│ ├── 01_create_schemas.sql
-│ ├── 02_create_raw_tables.sql
-│ ├── 03_staging_tables.sql
-│ ├── 04_dimension_tables.sql
-│ ├── 05_fact_sales.sql
-│ ├── 06_views.sql
-│ └── 07_data_quality_checks.sql
+│   ├── 01_create_schemas.sql
+│   ├── 02_create_raw_tables.sql
+│   ├── 03_staging_tables.sql
+│   ├── 04_dimension_tables.sql
+│   ├── 05_fact_sales.sql
+│   ├── 06_views.sql
+│   └── 07_data_quality_checks.sql
 │
 ├── docker-compose.yml
 ├── rebuild_olist_warehouse.ps1
 ├── requirements.txt
 └── README.md
+```
 
 ## Running the Project
 1. Start PostgreSQL using Docker
