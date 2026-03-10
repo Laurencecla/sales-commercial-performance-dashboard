@@ -415,6 +415,14 @@ Example dashboard views:
 ### Customer Segmentation
 ![Customer Segmentation](docs/screenshots/customer_segmentation.png)
 
+Power BI Report
+
+The Power BI file is included in this repository:
+
+powerbi/sales_commercial_dashboard.pbix
+
+GitHub may not preview .pbix files directly in the browser because they are binary files, but the report can be downloaded from the repository and opened in Power BI Desktop.
+
 License
 
 This project is open-source and available under the MIT License.
