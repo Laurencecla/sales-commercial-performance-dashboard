@@ -276,7 +276,7 @@ sales-commercial-performance-dashboard
 ├── requirements.txt
 └── README.md
 
-Running the Project
+## Running the Project
 1. Start PostgreSQL using Docker
 docker compose up -d
 2. Install Python dependencies
